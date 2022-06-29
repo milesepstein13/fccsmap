@@ -104,7 +104,6 @@ class FccsLookUp(object):
         else:
             fuel_load_key = 'fccs%s'%(fccs_version)
         logging.debug('fuel load key: %s', fuel_load_key)
-        logging.debug('test update!!!!')
 
         for k in ('file', 'param', 'grid_resolution'):
             v = (options.get('fccs_fuelload_{}'.format(k))
